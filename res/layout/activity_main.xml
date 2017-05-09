@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+	<TableRow 
+	    android:id="@+id/TR1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <TextView 
+	        android:id="@+id/time1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:text="--:--:--"/>
+
+	</TableRow>
+	<TableRow 
+	    android:id="@+id/TR2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/TR1">
+
+	    <Button 
+	        android:id="@+id/time1S"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="开始"/>
+	</TableRow>
+		<TableRow 
+	    android:id="@+id/TR3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/TR2">
+	    
+	    <TextView 
+	        android:id="@+id/time2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:text="--:--:--"/>
+
+	</TableRow>
+	<TableRow 
+	    android:id="@+id/TR4"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/TR3">
+
+	    <Button 
+	        android:id="@+id/time2S"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="开始"/>
+	</TableRow>
+			<TableRow 
+	    android:id="@+id/TR5"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/TR4">
+	    
+	    <TextView 
+	        android:id="@+id/time3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:text="--:--:--"/>
+
+	</TableRow>
+	<TableRow 
+	    android:id="@+id/TR6"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/TR5">
+
+	    <Button 
+	        android:id="@+id/time3S"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="开始"/>
+	</TableRow>
+
+</RelativeLayout>
